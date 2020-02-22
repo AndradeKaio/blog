@@ -1,0 +1,28 @@
+<div class=footer>
+	<small><p>&copy; Copyright <script language="JavaScript">var date = new Date(); document.write(date.getFullYear());</script> by {{ AUTHOR }}</p>
+  <p> Powered by <a href="http://pypi.python.org/pypi/pelican/" target="_blank">Pelican</a>.  
+    <a href="https://github.com/fjavieralba/flasky">Theme</a>.
+  </p></small> 
+  <p>
+    <div class=social style="font-size: 27px;">
+      <ul>
+	      <small>
+        {% if MAIL_USERNAME %}<script language="JavaScript">
+          u = '{{ MAIL_USERNAME }}';
+          s = '{{ MAIL_HOST }}';
+          document.write('<a href=\"mailto:' + u + '@' + s + '\" target=\"_blank\">');
+        </script>
+            <li><i class="icon-envelope icon-large"></i> </li>
+	  </a>{% endif %}</small>
+		{% if TWITTER_USERNAME %}<small><a href="http://twitter.com/{{ TWITTER_USERNAME }}" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a> </small>{% endif %}
+        {% if LINKEDIN_URL %}<a href="{{ LINKEDIN_URL }}" target="_blank"><li><i class="icon-linkedin-sign icon-large" ></i></li></a>{% endif %}
+	{% if GITHUB_URL %}<small><a href="{{ GITHUB_URL }}" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a></small>{% endif %}
+        {% if FACEBOOK_URL %}<a href="{{ FACEBOOK_URL }}" target="_blank"><li> <i class="icon-facebook-sign icon-large"></i></li> </a>{% endif %}
+        {% if GOOGLEPLUS_URL %}<a href="{{ GOOGLEPLUS_URL }}" target="_blank"><li><i class="icon-google-plus-sign icon-large"></i> </li> </a>{% endif %}
+        {% if PINTEREST_URL %}<a href="{{ PINTEREST_URL }}" target="_blank"><li><i class="icon-pinterest-sign icon-large"></i></li></a>{% endif %}
+
+
+      </ul>
+    </div>
+  </p>
+</div>
