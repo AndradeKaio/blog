@@ -41,9 +41,9 @@ DEFAULT_PAGINATION = 10
 
 
 # =============================
-DISQUS_SITENAME = "kaiohenrique.me"
+DISQUS_SITENAME = "kaiohenrique-me"
 TWITTER_USERNAME = 'eunaokaio'
-GITHUB_URL = 'http://github.com/you'
+GITHUB_URL = 'http://github.com/AndradeKaio'
 MAIL_USERNAME = 'kaiohenrique'
 MAIL_HOST = 'protonmail.com'
 
